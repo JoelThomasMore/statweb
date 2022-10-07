@@ -1,0 +1,5 @@
+3. html
+4. SportFocus vzw - Zwemlessen - Sportkampen - Voetbal
+5. UTF-8
+6. Nee
+7.Defineert het favorieten icoon van de website, niet noodzakelijk maar wel aangeraden door W3C. Icoon is zichtbaar op de tab van de website.
