@@ -1,0 +1,43 @@
+table{
+    font-family: 'Times New Roman', Times, serif;
+    border-collapse:collapse; 
+    width: 50%;
+    padding: 5px;
+    border-spacing: 10px;
+    border: 2px;
+}
+
+
+
+th{
+    font-size: larger;
+    color:white;
+    background-color: rgb(86, 203, 86);
+    text-align:left;
+}
+
+td{
+    background-color: rgb(244, 244, 212);
+    font-size: larger;
+}
+
+th,td{
+    border: 2px solid rgb(203, 203, 195);
+    padding: 10px;
+}
+
+.rij{
+    max-width: 125px;
+    min-width: 100px;
+}
+
+.eerste_rij{
+    max-width:100px;
+}
+.active{
+    background-color: rgb(249, 194, 93);
+}
+
+td:hover{
+    background-color: rgb(216, 212, 212);
+}

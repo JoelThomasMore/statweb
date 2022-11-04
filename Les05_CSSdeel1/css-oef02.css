@@ -1,0 +1,21 @@
+a:link{
+    color: crimson;
+    text-decoration: none;
+}
+a:visited{
+    color: fuchsia;
+    text-decoration: none;
+}
+
+a:hover{
+    color: dodgerblue;
+    text-decoration: dotted;
+}
+a:active{
+    color: darkgreen;
+    text-decoration: underline;
+}
+
+p:hover{
+    background-color: blue;
+}

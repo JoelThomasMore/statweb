@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+  </head>
+  <body>
+    <form action="https://tm-statweb.be/forms.php" method="get">
+      <div>
+        <h3 style="margin: 0px;">
+          Voornaam:
+          <label for="voornaam">
+            <input type="text" id="voornaam" name="voornaam" placeholder="Stijn">
+          </label>
+        </h3>
+      </div>
+      <div>
+        <h3 style="margin: 0px;">
+          Familienaam:
+          <label for="familienaam">
+            <input type="text" id="familienaam" name="familienaam" placeholder="Lenaerts">
+          </label>
+        </h3>
+      </div>
+      <div>
+        <h3 style="margin: 0px;">
+          Gebruikersnaam:
+          <label for="Gebruikersnaam">
+            <input type="text" id="Gebruikersnaam" name="Gebruikersnaam" placeholder="mail@thomasmore.be" required>
+          </label>
+        </h3>
+      </div>
+      <div>
+        <h3 style="margin: 0px;">
+          Nickname:
+          <label for="Nickname">
+            <input type="text" id="Nickname" name="Nickname" minlength="5" maxlength="15">
+          </label>
+        </h3>
+      </div>
+      <div>
+        <h3 style="margin: 0px;">
+          Paswoord:
+          <label for="Paswoord">
+            <input type="password" id="Paswoord" name="Paswoord" required>
+          </label>
+        </h3>
+      </div>
+      <div>
+        <h3 style="margin: 0px;">
+          Herhaal paswoord:
+          <label for="HerhaalPaswoord">
+            <input type="password" id="HerhaalPaswoord" name="HerhaalPaswoord" required>
+          </label>
+        </h3>
+      </div>
+      <div>
+        <input type="submit" value="registreren">
+      </div>
+    </form>
+  </body>
+</html>
